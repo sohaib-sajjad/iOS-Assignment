@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042D062E2A4EFBB8006BD91C /* Facilities Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D062D2A4EFBB8006BD91C /* Facilities Screen.swift */; };
+		042D06312A4F1B72006BD91C /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D06302A4F1B72006BD91C /* Toast.swift */; };
+		042D06342A4F200D006BD91C /* Facility View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D06332A4F200D006BD91C /* Facility View.swift */; };
+		042D06362A4F23AE006BD91C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 042D06352A4F23AE006BD91C /* README.md */; };
 		04387D622A4E172100C30EA9 /* AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04387D612A4E172100C30EA9 /* AssignmentApp.swift */; };
 		04387D642A4E172100C30EA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04387D632A4E172100C30EA9 /* ContentView.swift */; };
 		04387D662A4E172400C30EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04387D652A4E172400C30EA9 /* Assets.xcassets */; };
 		04387D692A4E172400C30EA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04387D682A4E172400C30EA9 /* Preview Assets.xcassets */; };
+		04387D7A2A4E193900C30EA9 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04387D792A4E193900C30EA9 /* ResponseModel.swift */; };
+		04387D7C2A4E1C3B00C30EA9 /* Api Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04387D7B2A4E1C3B00C30EA9 /* Api Call.swift */; };
+		04387D812A4E1F3500C30EA9 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04387D802A4E1F3500C30EA9 /* NetworkConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042D062D2A4EFBB8006BD91C /* Facilities Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Facilities Screen.swift"; sourceTree = "<group>"; };
+		042D06302A4F1B72006BD91C /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		042D06332A4F200D006BD91C /* Facility View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Facility View.swift"; sourceTree = "<group>"; };
+		042D06352A4F23AE006BD91C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04387D5E2A4E172100C30EA9 /* Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04387D612A4E172100C30EA9 /* AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentApp.swift; sourceTree = "<group>"; };
 		04387D632A4E172100C30EA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04387D652A4E172400C30EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04387D682A4E172400C30EA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04387D792A4E193900C30EA9 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		04387D7B2A4E1C3B00C30EA9 /* Api Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api Call.swift"; sourceTree = "<group>"; };
+		04387D802A4E1F3500C30EA9 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +46,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042D062F2A4F1B61006BD91C /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				042D06302A4F1B72006BD91C /* Toast.swift */,
+			);
+			path = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		042D06322A4F1FF0006BD91C /* Facilities Screen */ = {
+			isa = PBXGroup;
+			children = (
+				042D062D2A4EFBB8006BD91C /* Facilities Screen.swift */,
+				042D06332A4F200D006BD91C /* Facility View.swift */,
+			);
+			path = "Facilities Screen";
+			sourceTree = "<group>";
+		};
 		04387D552A4E172100C30EA9 = {
 			isa = PBXGroup;
 			children = (
+				042D06352A4F23AE006BD91C /* README.md */,
 				04387D602A4E172100C30EA9 /* Assignment */,
 				04387D5F2A4E172100C30EA9 /* Products */,
 			);
@@ -51,6 +83,9 @@
 		04387D602A4E172100C30EA9 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				042D062F2A4F1B61006BD91C /* Reusable Views */,
+				04387D822A4E1F9500C30EA9 /* Screens */,
+				04387D732A4E184F00C30EA9 /* Networking */,
 				04387D612A4E172100C30EA9 /* AssignmentApp.swift */,
 				04387D632A4E172100C30EA9 /* ContentView.swift */,
 				04387D652A4E172400C30EA9 /* Assets.xcassets */,
@@ -65,6 +100,56 @@
 				04387D682A4E172400C30EA9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04387D732A4E184F00C30EA9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				04387D7D2A4E1D4F00C30EA9 /* Network Config */,
+				04387D742A4E186D00C30EA9 /* Api */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		04387D742A4E186D00C30EA9 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				04387D782A4E18A300C30EA9 /* Response Model */,
+				04387D762A4E189600C30EA9 /* Api Call */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		04387D762A4E189600C30EA9 /* Api Call */ = {
+			isa = PBXGroup;
+			children = (
+				04387D7B2A4E1C3B00C30EA9 /* Api Call.swift */,
+			);
+			path = "Api Call";
+			sourceTree = "<group>";
+		};
+		04387D782A4E18A300C30EA9 /* Response Model */ = {
+			isa = PBXGroup;
+			children = (
+				04387D792A4E193900C30EA9 /* ResponseModel.swift */,
+			);
+			path = "Response Model";
+			sourceTree = "<group>";
+		};
+		04387D7D2A4E1D4F00C30EA9 /* Network Config */ = {
+			isa = PBXGroup;
+			children = (
+				04387D802A4E1F3500C30EA9 /* NetworkConfig.swift */,
+			);
+			path = "Network Config";
+			sourceTree = "<group>";
+		};
+		04387D822A4E1F9500C30EA9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				042D06322A4F1FF0006BD91C /* Facilities Screen */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042D06362A4F23AE006BD91C /* README.md in Resources */,
 				04387D692A4E172400C30EA9 /* Preview Assets.xcassets in Resources */,
 				04387D662A4E172400C30EA9 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +224,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				04387D642A4E172100C30EA9 /* ContentView.swift in Sources */,
+				042D062E2A4EFBB8006BD91C /* Facilities Screen.swift in Sources */,
+				04387D812A4E1F3500C30EA9 /* NetworkConfig.swift in Sources */,
+				04387D7C2A4E1C3B00C30EA9 /* Api Call.swift in Sources */,
+				04387D7A2A4E193900C30EA9 /* ResponseModel.swift in Sources */,
 				04387D622A4E172100C30EA9 /* AssignmentApp.swift in Sources */,
+				042D06342A4F200D006BD91C /* Facility View.swift in Sources */,
+				042D06312A4F1B72006BD91C /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
