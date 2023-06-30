@@ -27,7 +27,7 @@ No Third-Party Frameworks/Libraries used.
 
 To get started with the project, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository.
 
 
 2. Open the Xcode project file.
