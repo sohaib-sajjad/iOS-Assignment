@@ -20,9 +20,6 @@ For this assignment, I chose to use the **MVVM (Model-View-ViewModel)** architec
 
 No Third-Party Frameworks/Libraries used.
 
-## Requirements
-
-
 ## Getting Started
 
 To get started with the project, follow these steps:
