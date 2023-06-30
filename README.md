@@ -37,7 +37,7 @@ Once the project is running, you can interact with the UI to select options from
 
 ## Conclusion
 
-The iOS assignment was successfully completed using the MVVM design pattern. The UI allows users to select options from facilities, and exclusions are implemented to prevent invalid selections. The project demonstrates the use of Alamofire for networking and SwiftyJSON for JSON parsing.
+The iOS assignment was successfully completed using the MVVM design pattern. The UI allows users to select options from facilities, and exclusions are implemented to prevent invalid selections.
 
 
 If you have any questions or feedback, please feel free to reach out.
